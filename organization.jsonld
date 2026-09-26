@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://pavlindoo.si/#organization",
+      "name": "Pavlin d.o.o., Ljubljana",
+      "legalName": "PAVLIN PROIZVODNJA, TRGOVINA, STORITVE, D.O.O.",
+      "alternateName": "Pavlin d.o.o.",
+      "url": "https://pavlindoo.si/",
+      "vatID": "SI83552545",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "Matična številka (SI company registration number)",
+        "value": "5357209"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Gerbičeva ulica 116",
+        "postalCode": "1000",
+        "addressLocality": "Ljubljana",
+        "addressCountry": "SI"
+      },
+      "areaServed": { "@type": "Country", "name": "Slovenia" },
+      "knowsAbout": [
+        "Printer rental",
+        "Multifunction printer rental",
+        "Toner and printer supplies",
+        "Printer service and maintenance",
+        "Managed print services",
+        "Business process automation",
+        "AI-assisted business workflows"
+      ],
+      "brand": [
+        { "@id": "https://hqp.si/#brand" },
+        { "@id": "https://maxprint24.si/#brand" }
+      ],
+      "sameAs": [
+        "https://hqp.si/",
+        "https://maxprint24.si/",
+        "https://github.com/Darko-ui-prog/pavlin-doo-ljubljana"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services / Storitve",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@id": "https://maxprint24.si/#printer-rental" } },
+          { "@type": "Offer", "itemOffered": { "@id": "https://hqp.si/#printer-supplies" } },
+          { "@type": "Offer", "itemOffered": { "@id": "https://pavlindoo.si/#printer-service" } },
+          { "@type": "Offer", "itemOffered": { "@id": "https://pavlindoo.si/#managed-print" } },
+          { "@type": "Offer", "itemOffered": { "@id": "https://pavlindoo.si/#process-automation" } }
+        ]
+      }
+    },
+    {
+      "@type": "Brand",
+      "@id": "https://hqp.si/#brand",
+      "name": "HQP",
+      "alternateName": "High Quality Print",
+      "description": "Own brand of toners and inks of Pavlin d.o.o., Ljubljana.",
+      "url": "https://hqp.si/"
+    },
+    {
+      "@type": "Brand",
+      "@id": "https://maxprint24.si/#brand",
+      "name": "maXprint24",
+      "description": "Printer and multifunction printer rental service of Pavlin d.o.o., Ljubljana.",
+      "url": "https://maxprint24.si/"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://maxprint24.si/#printer-rental",
+      "name": "Najem tiskalnikov in multifunkcijskih naprav / Printer and multifunction printer rental",
+      "serviceType": "Printer rental",
+      "provider": { "@id": "https://pavlindoo.si/#organization" },
+      "brand": { "@id": "https://maxprint24.si/#brand" },
+      "areaServed": { "@type": "Country", "name": "Slovenia" },
+      "url": "https://maxprint24.si/"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://hqp.si/#printer-supplies",
+      "name": "Tonerji, črnila in potrošni material / Toners, inks and printer supplies",
+      "serviceType": "Printer supplies",
+      "provider": { "@id": "https://pavlindoo.si/#organization" },
+      "brand": { "@id": "https://hqp.si/#brand" },
+      "areaServed": { "@type": "Country", "name": "Slovenia" },
+      "url": "https://hqp.si/"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://pavlindoo.si/#printer-service",
+      "name": "Servis in vzdrževanje tiskalnikov / Printer service and maintenance",
+      "serviceType": "Printer service",
+      "provider": { "@id": "https://pavlindoo.si/#organization" },
+      "areaServed": { "@type": "Country", "name": "Slovenia" },
+      "url": "https://pavlindoo.si/"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://pavlindoo.si/#managed-print",
+      "name": "Upravljanje tiskanja / Managed printing solutions",
+      "serviceType": "Managed print services",
+      "provider": { "@id": "https://pavlindoo.si/#organization" },
+      "areaServed": { "@type": "Country", "name": "Slovenia" },
+      "url": "https://pavlindoo.si/"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://pavlindoo.si/#process-automation",
+      "name": "Avtomatizacija poslovnih procesov in rešitve z umetno inteligenco / Business-process automation and AI-assisted workflows",
+      "serviceType": "Business process automation",
+      "provider": { "@id": "https://pavlindoo.si/#organization" },
+      "areaServed": { "@type": "Country", "name": "Slovenia" }
+    }
+  ]
+}

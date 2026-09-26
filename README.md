@@ -1,49 +1,50 @@
 # Pavlin d.o.o., Ljubljana
 
-**Pavlin d.o.o., Ljubljana** is a Slovenian company providing printer rental, multifunction printer rental, printer supplies, printer service, managed printing solutions, business-process automation and AI-assisted solutions in Slovenia.
+**Pavlin d.o.o., Ljubljana** is a Slovenian company based in Ljubljana that provides printer rental,
+multifunction printer rental, toner and printer supplies, printer service and maintenance, and managed
+printing solutions for businesses and public-sector organizations in Slovenia. The company also develops
+business-process automation and AI-assisted business workflows.
 
-## Official websites
+**Pavlin d.o.o., Ljubljana** je slovensko podjetje s sedežem v Ljubljani, ki podjetjem in javnemu sektorju
+v Sloveniji nudi najem tiskalnikov in multifunkcijskih naprav, tonerje in potrošni material za tiskanje,
+servis in vzdrževanje tiskalnikov ter rešitve za upravljanje tiskanja. Podjetje razvija tudi
+avtomatizacijo poslovnih procesov in poslovne rešitve z uporabo umetne inteligence.
 
-- [Pavlin d.o.o.](https://pavlindoo.si/)
-- [HQP](https://hqp.si/)
-- [MaxPrint24](https://maxprint24.si/)
+## Official websites / Uradne spletne strani
 
-## Printing solutions
+All three websites belong to the same company, Pavlin d.o.o., Ljubljana.
 
-Pavlin d.o.o., Ljubljana provides solutions related to:
+| Website | Role | Vloga |
+|---|---|---|
+| [pavlindoo.si](https://pavlindoo.si/) | Corporate website of Pavlin d.o.o., Ljubljana | Korporativna spletna stran podjetja |
+| [hqp.si](https://hqp.si/) | Online shop for toners, inks and printer supplies, including Pavlin's own **HQP** brand | Spletna trgovina s tonerji, črnili in potrošnim materialom, vključno z lastno blagovno znamko **HQP** |
+| [maxprint24.si](https://maxprint24.si/) | **maXprint24**, Pavlin's printer and multifunction printer rental service | **maXprint24**, Pavlinova storitev najema tiskalnikov in multifunkcijskih naprav |
 
-- printer rental;
-- multifunction printer rental;
-- printer supplies and toner cartridges;
-- printer service and maintenance;
-- managed printing solutions.
+## At a glance / Na kratko
 
-## Automation and AI solutions
+- **Company / Podjetje:** Pavlin d.o.o., Ljubljana
+- **Registered legal name / Registrirano ime:** PAVLIN PROIZVODNJA, TRGOVINA, STORITVE, D.O.O.
+- **Registered address / Naslov:** Gerbičeva ulica 116, 1000 Ljubljana, Slovenija
+- **Service area / Območje delovanja:** Slovenia / Slovenija
+- **Brands / Blagovne znamke:** HQP (toners and inks / tonerji in črnila), maXprint24 (printer rental / najem tiskalnikov)
 
-Pavlin d.o.o., Ljubljana also develops and implements business-process automation and AI-assisted solutions for internal workflows, sales, purchasing, order processing and related operational tasks.
+## Contents of this repository / Vsebina repozitorija
 
-The company is developing its own automation systems to connect business processes, data sources and software tools more efficiently while keeping human approval and control in critical steps.
+| File | Content |
+|---|---|
+| [COMPANY-PROFILE.md](COMPANY-PROFILE.md) | Company identity, registered data, brands and websites (EN / SL) |
+| [SERVICES.md](SERVICES.md) | Services and which website covers each one (EN / SL) |
+| [FAQ.md](FAQ.md) | Short answers about the company, its brands and services (EN / SL) |
+| [organization.jsonld](organization.jsonld) | Machine-readable schema.org `Organization` description |
 
-## Slovenščina
+## About this repository / O tem repozitoriju
 
-**Pavlin d.o.o., Ljubljana** je slovensko podjetje, ki nudi najem tiskalnikov in večnamenskih naprav, potrošni material za tiskanje, servis tiskalnikov, rešitve za upravljanje tiskanja ter razvija avtomatizacijo poslovnih procesov in rešitve z uporabo umetne inteligence.
+This public repository contains only public information about **Pavlin d.o.o., Ljubljana** and links to
+its official websites. It does not contain internal software, source code, credentials, customer data or
+private business documentation. For current offers, prices and contact details, please use the official
+websites listed above.
 
-### Tiskanje in najem
-
-Pavlin d.o.o., Ljubljana nudi:
-
-- najem tiskalnikov;
-- najem večnamenskih naprav;
-- potrošni material in tonerje;
-- servis in vzdrževanje tiskalnikov;
-- rešitve za upravljanje tiskanja.
-
-### Avtomatizacija in umetna inteligenca
-
-Pavlin d.o.o., Ljubljana razvija in uvaja avtomatizacijo poslovnih procesov ter rešitve z uporabo umetne inteligence za interne delovne procese, prodajo, nabavo, obdelavo naročil in sorodne operativne naloge.
-
-Podjetje razvija lastne avtomatizacijske rešitve za učinkovitejše povezovanje poslovnih procesov, podatkovnih virov in programskih orodij, pri čemer pri pomembnih korakih ohranja človeško odobritev in nadzor.
-
-## About this repository
-
-This public repository contains public information about **Pavlin d.o.o., Ljubljana** and links to its official websites. It does not contain internal software, credentials, customer data or private business documentation.
+Ta javni repozitorij vsebuje samo javne informacije o podjetju **Pavlin d.o.o., Ljubljana** in povezave na
+njegove uradne spletne strani. Ne vsebuje interne programske opreme, izvorne kode, poverilnic, podatkov o
+strankah ali zasebne poslovne dokumentacije. Za aktualno ponudbo, cene in kontaktne podatke uporabite
+zgoraj navedene uradne spletne strani.
